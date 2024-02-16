@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    display:grid;
+    grid-template: 56px 968px / 218px 1222px;
+    grid-template-areas: "header header" "aside main" "aside main" "aside main";
+    justify-content: center;
+    background: #777777;
+    
+
+}
+
+header {
+    grid-area: header;
+    width: 1440px;
+    height: 1024px;
+    grid-area:header;
+    background: #F9F9F9;
+    display: flex;
+ 
+    
+}
+
+nav {
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+nav .menu-laft{
+    width: 146px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    justify-self: stretch;
+    
+   
+}
+
+nav .icone-menu{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 32px;
+
+
+}
+
+nav .logo{
+    width: 90px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+nav .menu-search{
+    width: 404px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    justify-self: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav .barra-presquisa {
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;  
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+
+nav .pesquisa{
+    width: 57px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+   
+}
+
+
+nav .icone-pesquisa{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 8PX;
+    margin-left: 14PX;
+    margin-right: 19PX;
+    
+    
+    
+} 
+
+
+nav .menu-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    margin-right: 35px;
+
+}
+
+nav .icone-video{
+    width: 24px;
+    height: 24px; 
+}
+
+nav .icone-bell{
+    width: 24px;
+    height: 24px;
+}
+
+nav .icone-avatar {
+    width: 34px;
+    height: 34px;
+    display: flex;
+border-radius: 100%;    
+   overflow: auto;
+}
+
+aside .aside-items{
+    display: flex;
+    width: 218px;
+    height: 968px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    flex-shrink: 0;   
+}
+
+aside .aside-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+main{
+    display: grid;
+    grid-area: main;
+    grid-template: repeat(3, 262px) / repeat(4, 282px);
+    padding: 24px 24px 0 28px;
+    gap: 14px;
+}
+main .videos{
+    padding: 16px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;  
+    
+
+
+}
+
+main .videos1{
+    display: inline-flex;
+    height: 262px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 4px;
+ 
+    
+
+
+}
+
+
+.description h1{
+    width: 197px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.description span{
+   display: flex;
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+        
+    
+    
+
+}
+
+main .Details{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+}
+
+main .logo-canal{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    
+    
+
+}
+
+
